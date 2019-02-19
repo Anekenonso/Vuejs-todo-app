@@ -1,0 +1,38 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A todo-app built using node, expressjs, vuejs and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.3",
+    "axios": "*",
+    "body-parser": "*",
+    "bootstrap": "*",
+    "express": "*",
+    "method-override": "*",
+    "mongoose": "*",
+    "morgan": "^1.9.1",
+    "vue": "*",
+    "vue-axios": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-3": "*",
+    "cross-env": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "prettier": "*",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.6.6",
+    "webpack": "*",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "*"
+  },
+  "author": "okenwa kenneth",
+  "license": "ISC"
+}
